@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./governorate.html">Governorate</a></li>
+            <li> <a href="./gallery.html">Gallery</a></li>
+            <li> <a href="./signup.html"> Sign Up</a></li>
+        </ul>
+    </nav>
+
+
+    <form action="#">
+
+
+        <div>
+            <span class="label-width">Gender: </span>
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="diverse" value="diverse" />
+            <label for="diverse">Diverse</label>
+        </div>
+        <div>
+            <label class="label-width" for="title">Title:</label>
+            <select name="titleName" id="title">
+                <option>select your title.</option>
+                <option>_______</option>
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+                <option value="miss">Miss</option>
+                <option value="ms">Ms.</option>
+                <option value="dr">Dr.</option>
+            </select>
+        </div>
+
+        <div>
+            <label class="label-width" for="fName">First name: *</label>
+            <input type="text" name="firstName" id="fName" required placeholder="Enter your first name" />
+        </div>
+        <div>
+            <label class="label-width" for="lName">Last name: *</label>
+            <input type="text" name="lastName" id="lName" required placeholder="Enter your last name" />
+        </div>
+        <div>
+            <label class="label-width" for="e-mail">E-mail: *</label>
+            <input type="email" name="eMail" id="e-mail" required placeholder="Enter your e-mail" />
+        </div>
+
+
+
+        <div>
+            <label class="label-width" for="some words about you">some words about you?</label>
+            <textarea name="aboutUs" id="some words about you" cols="22" rows="5" maxlength="100"></textarea>
+        </div>
+
+        <div class="checkboxDiv">
+            <input type="checkbox" name="mailList" id="mailing-list" unchecked />
+            <label for="mailing-list">Subscribe to our mailing list.</label>
+        </div>
+        <div class="checkboxDiv"><input type="submit" value="Send" /></div>
+    </form>
+
+
+
+</body>
+
+</html>

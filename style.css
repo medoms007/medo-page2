@@ -1,0 +1,158 @@
+* { 
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: pacifico-regular;
+    src: url(./fonts/Pacifico-Regular.ttf);
+}
+body{
+    margin: 0px 30px 0px 0px;
+    padding: 15px;
+    background-color: lightgray;
+}
+
+.welcome {
+    background-image: url(./img/syria1.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.welcoming {
+    font-family: pacifico-regular, cursive;
+    font-size: 120px;
+    margin-top: 50vh;
+    text-align: center; 
+} 
+
+.welcoming a:link, .welcoming a:visited{
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 70px;
+    padding: 5px 15px 15px 15px;
+    text-decoration: none;
+    background-color:none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0
+}
+
+.Home{
+    background-image: url(./img/damascus.jpg) ;
+    background-attachment: fixed;
+    background-position: 55vw;
+    background-repeat: unset;
+    background-size: cover; 
+
+}
+.syriap{
+    
+    width: 100%;
+  
+    background-color: rgba(100,100,100,0.5);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.table-IMG {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.maintable {
+    margin: auto;
+    
+}
+
+
+nav {
+   overflow: hidden;
+  
+    background-color: black;
+    width: 100%;
+    top: 0%;    
+    position: fixed;
+}
+
+nav ul {
+  
+    list-style-type: none;
+    background-color: rgb(221, 78, 109);
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    margin: 0 px;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration-line: none;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+}
+
+nav a:hover, nav #activePage {
+    color: black;
+    background-color: white;
+}
+
+nav a:active {
+    background-color: gray;
+}
+
+.ptable {
+    margin-top: 50px;
+}
+img {
+    width: 250px;
+    border: 3px white;
+  
+}
+img:hover {    
+    transform: scale(1.1);
+    border: 2px solid #333;
+    box-shadow: 5px 5px 10px #222;
+  }
+  form {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+form div {
+    margin-bottom: 40px;
+}
+
+form .label-width {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    vertical-align: top;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+    width: 30%;
+}
+
+.checkboxDiv {
+    text-align: center;
+}
